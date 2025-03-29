@@ -16,8 +16,8 @@ This placed 2nd place at GunnHacks 11.0. Checkout our [devpost here](tinyurl.com
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/FlicknFind.git
-cd FlicknFind
+git clone https://github.com/lwang2008/Flick-n-Find.git
+cd Flick-n-Find
 ```
 
 2. Create and activate a virtual environment (recommended):
@@ -31,7 +31,14 @@ source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Run the application:
+4. Download the required model files:
+   - YOLO model (yolov8n.pt):
+     ```bash
+     wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt
+     ```
+   - Universal Sentence Encoder model will be downloaded automatically when you first run the application
+
+5. Run the application:
 ```bash
 streamlit run home.py
 ```
@@ -74,8 +81,23 @@ FlicknFind/
 ├── keywordmatching.py  # Keyword matching logic
 ├── images/            # Directory for uploaded images
 ├── imageDB.csv        # Database of items
+├── yolov8n.pt         # YOLO model file (download required)
 └── requirements.txt   # Python dependencies
 ```
+
+## Model Files
+
+The project requires two main model files:
+
+1. **YOLO Model (yolov8n.pt)**
+   - Used for object detection in images
+   - Download from: https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt
+   - Place in the root directory of the project
+
+2. **Universal Sentence Encoder**
+   - Used for semantic search functionality
+   - Automatically downloaded when first running the application
+   - No manual download required
 
 ## Contributing
 
