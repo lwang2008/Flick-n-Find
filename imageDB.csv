@@ -1,0 +1,5 @@
+ind,filepath,keywords,location,date,time,contact,status
+0,images/img0.png,Orange dog,"Palo Alto, CA",2025-03-29,12:26:24 AM,2342,lost
+1,images/img1.png,Yellow suitcase,"Palo Alto, CA",2025-03-29,12:26:48 AM,568,lost
+2,images/img2.png,Gray train,"Palo Alto, CA",2025-03-29,12:27:29 AM,56889,lost
+3,images/img3.png,Orange  dog,"Palo Alto, CA",2025-03-29,12:34:24 AM,897,lost
