@@ -4,6 +4,12 @@ Flick n Find is a community-wide lost-and-found platform powered by AI, making i
 
 This placed 2nd place at GunnHacks 11.0. Checkout our [devpost here](tinyurl.com/FlicknFind).
 
+## Team Members
+
+- Lucas Wang
+- Aakash Koneru
+- Neeraj Gummalam
+
 ## Features
 
 - AI-powered image analysis using YOLO and Universal Sentence Encoder
@@ -105,5 +111,12 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+Special thanks to all team members who contributed to this project:
+- Lucas Wang
+- Aakash Koneru
+- Neeraj Gummalam 
 
