@@ -112,11 +112,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-Special thanks to all team members who contributed to this project:
-- Lucas Wang
-- Aakash Koneru
-- Neeraj Gummalam 
+ 
 
